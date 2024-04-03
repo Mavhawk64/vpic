@@ -58,10 +58,10 @@ the papers by Kevin Bowers listed below.
 
 # Getting the Code
 
-To checkout the VPIC source, do the following:
+To checkout the forked VPIC source, do the following:
 
 ```bash
-    git clone https://github.com/lanl/vpic.git
+    git clone https://github.com/mavhawk64/vpic.git
 ```
 
 ## Branches
