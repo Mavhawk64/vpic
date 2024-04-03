@@ -119,6 +119,20 @@ Otherwise, you may use the relative path from the VPIC source directory:
     . ./build/bin/vpic_mac ./sample/harris
 ```
 
+If you do not want the script to change to the `outputs/$deck` directory,
+you can run either of the following commands:
+
+```bash
+    /path/to/vpic/build/bin/vpic_mac /path/to/vpic/sample/harris
+```
+
+
+```bash
+    ./build/bin/vpic_mac ./sample/harris
+```
+
+(Notice the lack of the source (.) command in the above commands.)
+
 `vpic_mac` is a script similar to the `vpic` script, but it adds some
 additional functionality where it changes to the `outputs/$deck` directory
 (where _$deck_ is _harris_ for the example) after compiling the code to
